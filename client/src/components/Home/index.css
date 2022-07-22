@@ -1,0 +1,120 @@
+.header-hero {
+    height: 850px;
+    position: relative;
+}
+
+.bg_cover {
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+}
+.header-hero .header-content {
+    padding-top: 125px;
+    position: relative;
+    z-index: 9;
+}
+.header-hero .header-content .header-title {
+    font-size: 44px;
+    line-height: 55px;
+    color: #121212;
+    font-weight: 600;
+}
+.header-hero .header-content .header-btn {
+    margin-top: 22px;
+}
+
+.header-hero .header-content .header-btn li {
+    display: inline-block;
+    margin: 10px 10px 0;
+}
+ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+.header-hero .header-content .header-btn li .main-btn {
+    border-radius: 50px;
+    overflow: hidden;
+    background-color: #fff;
+    box-shadow: 0 3px 6px 0 rgb(0 0 0 / 16%);
+    border: 0;
+    line-height: 50px;
+}
+.rounded-buttons .rounded-three {
+    overflow: hidden;
+    line-height: 52px;
+    background: linear-gradient(to right,#0067f4 0%,#2bdbdc 50%,#0067f4 100%);
+    background-size: 200% auto;
+    color: #fff;
+    border: 0;
+}
+.main-btn {
+    display: inline-block;
+    font-weight: 700;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    user-select: none;
+    border: 2px solid transparent;
+    padding: 0 32px;
+    font-size: 16px;
+    line-height: 46px;
+    color: #0067f4;
+    cursor: pointer;
+    z-index: 5;
+    transition: all .4s ease-out 0s;
+    position: relative;
+    text-transform: uppercase;
+}
+p{
+    font-weight: 600;
+    margin: 0;
+}
+.header-hero .header-shape {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+.header-hero .header-content .text {
+    font-size: 20px;
+    line-height: 32px;
+    color: #6c6c6c;
+    margin-top: 16px;
+}
+@media only screen and (min-width: 768px) and (max-width: 991px){
+.header-hero {
+    height: 700px;
+}
+}
+@media (max-width: 767px){
+.header-hero {
+    height: 650px;
+}
+}
+@media (max-width: 767px){
+.header-hero .header-content {
+    padding-top: 120px;
+}
+}
+@media (max-width: 767px){
+.header-hero .header-content .header-title {
+    font-size: 30px;
+    line-height: 40px;
+}
+}
+@media (max-width: 767px){
+.header-hero .header-content .text {
+    font-size: 16px;
+    line-height: 24px;
+}
+}
+@media (max-width: 767px){
+.main-btn {
+    font-size: 14px;
+    padding: 0 20px;
+    line-height: 40px;
+}
+}

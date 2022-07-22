@@ -1,0 +1,43 @@
+.contact-area {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+.pb-10{
+    padding-bottom: 10px;
+}
+.section-title .title {
+    font-size: 50px;
+    font-weight: 600;
+    line-height: 55px;
+    color: #121212;
+}
+.contact-form .single-form {
+    margin-top: 30px;
+}
+input{
+    padding: 15px;
+    width: 100%;
+}
+.form-group{
+    margin: 0;
+}
+
+.contact-form .single-form textarea, .contact-form .single-form input {
+    width: 100%;
+    height: 56px;
+    border: 1px solid #cbced1;
+    border-radius: 5px;
+    padding: 0 25px;
+    background-color: #fff;
+    font-size: 16px;
+}
+.contact-form .single-form textarea {
+    height: 160px;
+    padding-top: 15px;
+    resize: none;
+}
+.contact-form .single-form .main-btn {
+    border-radius: 50px;
+    background-color: #0067f4;
+    color: #fff;
+}

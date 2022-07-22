@@ -1,0 +1,136 @@
+.pricing-area {
+    padding-top: 120px;
+    padding-bottom: 120px;
+    background-color: #f4f6f7;
+}
+.single-pricing{
+    box-shadow: 0 3px 6px 0 rgb(0 0 0 / 16%);
+    padding: 24px 20px 50px;
+    border-radius: 8px;
+    position: relative;
+    overflow: hidden;
+    background-color: #fff;
+}
+.mt-40{
+    margin-top: 40px;
+}
+.single-pricing .pricing-header .sub-title {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 25px;
+    color: #121212;
+    position: relative;
+    padding-bottom: 8px;
+}
+.single-pricing .pricing-header .price {
+    display: block;
+    font-weight: 600;
+    line-height: 80px;
+    color: #121212;
+}
+.price{
+    font-size: 60px;
+    font-weight: bold;
+    line-height: 80px;
+    color: #121212;
+}
+
+.single-pricing .pricing-list {
+    margin-top: 40px;
+}
+ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.single-pricing .pricing-list ul li {
+    
+    line-height: 24px;
+    color: #121212;
+    
+}
+.single-pricing .pricing-btn {
+    margin-top: 42px;
+}
+.single-pricing .pricing-btn .main-btn {
+    background-color: #0067f4;
+    border-radius: 50px;
+    color: #fff;
+    border-color: #0067f4;
+}
+.main-btn {
+    display: inline-block;
+    font-weight: 700;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    user-select: none;
+    border: 2px solid transparent;
+    padding: 0 32px;
+    font-size: 16px;
+    line-height: 46px;
+    color: #0067f4;
+    cursor: pointer;
+    z-index: 5;
+    transition: all .4s ease-out 0s;
+    position: relative;
+    text-transform: uppercase;
+}
+
+.link{
+    text-decoration: none;
+}
+
+.color-2{
+    fill:#d92bdc;
+    isolation:isolate;
+}
+
+.single-pricing .buttom-shape {
+    position: absolute;
+    bottom: -20px;
+    left: 0;
+    width: 101%;
+
+}
+
+.single-pricing.pro .pricing-baloon {
+    position: absolute;
+    top: 0;
+    right: -78px;
+    width: 156px;
+}
+
+.single-pricing.enterprise .pricing-flower {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+.text-right{
+    text-align: right;
+}
+
+
+
+
+
+@media only screen and (min-width: 992px) and (max-width: 1200px){
+.single-pricing .pricing-header .price {
+    font-size: 50px;
+    margin-top: 16px;
+}
+}
+@media only screen and (min-width: 992px) and (max-width: 1200px){
+.single-pricing .pricing-list ul li {
+    font-size: 14px;
+    margin-top: 12px;
+}
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1200px){
+.single-pricing.enterprise .pricing-flower {
+    width: 110px;
+}
+}

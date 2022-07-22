@@ -1,0 +1,99 @@
+.service-area{
+    padding-top: 120px;
+    width: 100vw;
+}
+.pb-10{
+    padding-bottom: 10px;
+}
+.section-title .title {
+    font-size: 50px;
+    font-weight: 600;
+    line-height: 55px;
+    color: #121212;
+}
+.section-title .text {
+    font-size: 16px;
+    line-height: 24px;
+    color: #6c6c6c;
+    margin-top: 24px;
+}
+p{
+    font-weight: 400;
+    margin: 0;
+}
+.services-content .services-icon .icon {
+    font-size: 64px;
+    color: #6281ac;
+}
+
+.services-image{
+    height: 100%;
+    width: 100%;
+}
+.service-content{
+    padding: 15px;
+    display: flex;
+    flex-direction: row;
+    
+}
+.services-icon{
+    margin-right: 10px;
+}
+
+.services-content .services-content {
+    padding-left: 15px;
+}
+
+
+.services-content .services-content .services-title {
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 30px;
+    color: #121212;
+}
+.services-content .services-content .text {
+    font-size: 10px;
+    line-height: 10px;
+    color: #121212;
+    margin-top: 8px;
+}
+.mt-40{
+    margin-top: 40px;
+}
+
+
+@media only screen and (max-width: 767px){
+.service-area {
+    padding-left: 10px;
+    padding-top: 25px;
+    padding-bottom: 100px;
+}
+.service-area .section-title .title{
+    color: rgb(20, 15, 15);
+    font-size: 34px;
+}
+.service-area .section-title .text{
+    color: rgb(20, 15, 15);
+    font-size: 13px;
+    font-weight: 500;
+}
+}
+@media (max-width: 767px){
+.section-title .title {
+    font-size: 30px;
+    line-height: 40px;
+}
+.service-content{
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    
+}
+.service-content .services-content .text {
+    font-size: 14px;
+    line-height: 12px;
+    color: #1d1818;
+    margin-top: 8px;
+}
+}
+

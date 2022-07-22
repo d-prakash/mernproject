@@ -1,0 +1,157 @@
+
+.footer-area {
+    background-color: #e9edef;
+    width: 100%;
+}
+.footer-widget {
+    padding-top: 10px;
+    padding-bottom: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #f4f6f7;
+}
+
+.footer-logo-support{
+    margin-bottom: 25px;
+}
+
+.footer-logo-support .footer-logo .social {
+    margin-left: 35px;
+    display: flex;
+    flex-direction: row;
+}
+.mt-30{
+    margin-top: 30px;
+}
+ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+.footer-logo-support .footer-logo .social li .link {
+    font-size: 24px;
+    color: #6c6c6c;
+    transition: all .3s ease-out 0s;
+    margin-right: 15px;
+}
+.footer-logo-support{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.footer-logo-support .footer-logo{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.footer-link {
+    margin-top: 32px;
+}
+.footer-title {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 18px;
+    color: #6c6c6c;
+}
+
+
+.footer-newsletter .newsletter .arrow-container input {
+    width: 90%;
+    left: 0;
+    height: 44px;
+    border-radius: 50px;
+    border: 0;
+    background-color: rgba(33,33,33,.12);
+    font-weight: 500;
+}
+.footer-newsletter .newsletter{
+    margin-top: 10px;
+    position: relative;
+    width: 100%;
+    margin-left: 50px;
+    right: 100px;
+}
+.footer-newsletter .newsletter .arrow-container button {
+    position: relative;
+    top: 0;
+    left: 90%;
+    height: 40px;
+    width: 40px;
+    border: none;
+    color: #121212;
+    cursor: pointer;
+    background: 0 0;  
+}
+.arrow-container{
+    display: flex;
+}
+.footer-link {
+    margin-top: 8px;
+    /* background-color: crimson;
+    width: 50%; */
+}
+.footer-link ul li .link {
+    font-size: 14px;
+    line-height: 34px;
+    color: #121212;
+    margin-top: 26px;
+    font-weight: 500;
+    transition: all .3s ease-out 0s;
+}
+.footer-newsletter .text {
+    margin-top: 16px;
+    font-size: 14px;
+}
+.footer-copyright {
+    background-color: #2b354f;
+
+}
+.copyright {
+    padding: 23px 0;
+}
+.copyright .text {
+    color: #fff;
+}
+p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #121212;
+    margin: 0;
+}
+
+/*.arrow-container button{
+    position: absolute;
+    top: 0;
+    right: 0;
+   
+} */
+/* .call-action-content newsletter button {
+    border: 0;
+    border-radius: 50px;
+    height: 48px;
+    padding: 0 32px;
+    font-size: 16px;
+    font-weight: 700;
+    color: #fff;
+    text-transform: uppercase;
+    cursor: pointer;
+    position: absolute;
+    top: 4px;
+    right: 4px;
+    background-color: #0067f4;
+    transition: all .3s ease-out 0s;
+} */
+@media screen and (max-width:767px) {
+    .footer-widget .footer-content {
+        padding-top: 30px;
+        display: flex;
+    }
+
+    .footer-widget {
+        padding-left: 15px;
+    }
+}
