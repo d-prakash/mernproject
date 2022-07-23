@@ -1,5 +1,4 @@
-import 'bootstrap/dist/css/bootstrap.min.css'; 
-import './App.css';
+import 'bootstrap/dist/css/bootstrap.min.css';  
 import Navbar from './components/Navbar';
 import Services from './components/Services';
 import Testimonial from './components/Testimonial';

@@ -19,7 +19,6 @@ const Services = () => {
               <p className='text'>Stop wasting time and money designing and managing a <br/> website that doesn't get the results. Happiness Guaranteed!</p>
             </div>
             </Col>
-            {/* <div className='service-section'> */}
             <Row>
               <Col lg={6} sm={12}> 
                 <div className='service-content'>
@@ -65,7 +64,6 @@ const Services = () => {
                   </div>
                 </div>
                 </Col>
-              {/* </div> */}
               </Row>
               </Col>
             

@@ -2,7 +2,7 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import './index.css'
 import {FaFacebookF,FaTwitter,FaInstagram,FaLinkedin} from 'react-icons/fa'
-import { Container,Row,Col } from 'react-bootstrap'
+import {Row,Col } from 'react-bootstrap'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Logo from '../../assets/logo.svg'
 import {ReactComponent as DoubleArrow} from '../../assets/angle-double-right.svg'
@@ -11,7 +11,6 @@ const Footer = () => {
   return (
     <footer id="footer" >
     <div className="footer-widget">
-    
         <Row>
             <Col lg={12}>
                 <div className="footer-logo-support d-md-flex align-items-center justify-content-between">
@@ -26,10 +25,9 @@ const Footer = () => {
                     </div> 
                 </div> 
             </Col>
-         
         
-            <Col lg={2} md={4} sm={6}>
-                <div className="footer-link">
+            <Col lg={2} md={6} sm={6}>
+                <div className="footer-link ">
                     <h6 className="footer-title">Company</h6>
                     <ul>
                         <li><Link to="/" className='link'>About</Link></li>
@@ -38,7 +36,7 @@ const Footer = () => {
                     </ul>
                 </div> 
             </Col>
-            <Col lg={3} md={4} sm={6}>
+            <Col lg={3} md={6} sm={6}>
                 <div className="footer-link">
                     <h6 className="footer-title">Product &amp; Services</h6>
                     <ul>
@@ -48,7 +46,7 @@ const Footer = () => {
                     </ul>
                 </div> 
             </Col>
-            <Col lg={3} md={4} sm={5}>
+            <Col lg={3} md={6} sm={5}>
                 <div className="footer-link">
                     <h6 className="footer-title">Help &amp; Suuport</h6>
                     <ul>
@@ -75,11 +73,9 @@ const Footer = () => {
     </div> 
     <div className="footer-copyright">
         <div className="container">
-            
-                    <div className="copyright text-center">
-                        <p className="text">Template Crafted by <a rel="nofollow" href="../../index-1.htm">UIdeck</a> - UI Powered by <a el="nofollow" href="../../index-1.htm">AyroUI</a></p>
-                    </div>
-            
+            <div className="copyright text-center">
+                <p className="text">Template Crafted by <a rel="nofollow" href="../../index-1.htm">UIdeck</a> - UI Powered by <a el="nofollow" href="../../index-1.htm">AyroUI</a></p>
+             </div>
         </div> 
     </div> 
 </footer>

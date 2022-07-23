@@ -19,11 +19,12 @@ const CallToAction = () => {
                     <div className="call-newsletter">
                         <div className="icon"><BsEnvelope/></div>
                         <input type="text" placeholder="john@email.com" />
-                        <button type="submit" className="d-none d-lg-block">SUBSCRIBE</button>
+                        <button type="submit" className=" d-lg-block">SUBSCRIBE</button>
 
                     </div>
-                    <button type="submit" className="button d-lg-none d-sm-block">SUBSCRIBE</button>
+                  
                 </div> 
+                
             </Col>
         </Row> 
     

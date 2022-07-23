@@ -4,12 +4,10 @@ import HeaderBg from '../../assets/header-bg.jpg'
 import { Link } from 'react-router-dom'
 import { Container,Row,Col } from 'react-bootstrap'
 import './index.css'
-//import { useNav } from '../../customHooks/useNav';
 
 const Home = () => {
   
   return (
-    //<section ref={homeRef} id={'homeContainer'}>
     <div id="home">
     <div className="header-hero bg_cover" style={{backgroundImage:`url(${HeaderBg})`,backgroundSize: "cover",
     height: "100vh",maxWidth:"100%"}}> 
@@ -32,7 +30,6 @@ const Home = () => {
       </div>
     </div>
     </div>
-    //</section>
   )
 }
 

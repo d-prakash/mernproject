@@ -41,3 +41,6 @@ input{
     background-color: #0067f4;
     color: #fff;
 }
+.feedback-error{
+    color: red;
+}
